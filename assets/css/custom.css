@@ -1,0 +1,19 @@
+.connection-indicator {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.device-status {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  padding: 5px 10px;
+  border: 2px solid #e73415;
+  border-radius: 5px;
+  font-weight: bold;
+}

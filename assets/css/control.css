@@ -1,0 +1,74 @@
+.icon-custom-size {
+  font-size: 100px;
+}
+
+.icon-custom-color-on {
+  color: green;
+}
+
+.icon-custom-color-off {
+  color: black;
+}
+
+.status-text {
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 10px auto;
+  display: table;
+}
+
+.text-on {
+  border: 2px solid green;
+  border-radius: 10px;
+  color: green;
+}
+
+.text-off {
+  border: 2px solid red;
+  border-radius: 10px;
+  color: red;
+}
+
+.button-red {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-red:hover {
+  background-color: darkred;
+}
+
+.button-green {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-green:hover {
+  background-color: darkgreen;
+}
+
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #555; /* Solid border color */
+  border-radius: 50%; /* Round border */
+  width: 50px; /* Width of the circle */
+  height: 50px; /* Height of the circle */
+  font-size: 24px; /* Icon size */
+  color: #555; /* Icon color */
+}
